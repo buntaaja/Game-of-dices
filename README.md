@@ -29,16 +29,6 @@ The objective is to score points, which you gain by rolling six dices and try to
 | **YAMB** |   |    |          |          |      |        |
 | **ROYAL**|  |    |          |          |      |        |
 
-<style>
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-</style>
-
 
 <span style="color:green; font-size:16px;">**The winner is the player who scores _the most_ points!**</span>
 
