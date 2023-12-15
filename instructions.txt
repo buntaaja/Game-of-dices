@@ -1,0 +1,41 @@
+The objective of the game is to score points by rolling six dices to make certain combinations.
+The dice can be rolled up to three times in a turn to try to make various scoring combinations.
+     After the first roll the player can save any dice they want and re-roll the other dice.
+     This procedure is repeated after the second roll. The player has complete choice as to which dice to roll.
+     It is possible to re-roll dices that were or were not rolled before.
+A game consists of 13 x 6 rounds (one for each cell in a table).
+After each round, the player chooses which cell he/she will fill in that round.
+Once a specific cell has been filled in the game, it cannot be changed.
+The scoring categories have varying point values, some of which are fixed values (for example the value of 'kenta' is always either 0 or 61),
+and others for which the score depends on the value of the dice.
+
+HOW TO CALCULATE EACH CELL:
+Rows 1 - 6: Sum up all the dices with number that is the same as row number. If there are none, your score in this cell is zero.
+------ If the sum off cells 1-6 in each column >= 60, you add 30 to the score of 'Partial Result' cell.
+Minimum: Sum up the values of all the dices. Your objective is to get the lowest score.
+Maximum: Sum up the values of all the dices. Your objective is to get the highest score.
+------ In each column you substract Maximum - Minimum and multiply by the number in cell 1.
+Kenta: If the values of your 6 dices are 1,2,3,4,5,6 (in any specific order) you get 61. If any value is missing you get 0 points.
+Full: You need 3 dices with the same number and 2 dices with different same number. If you succeed you sum up this 5 dices and add 30 to the score, else you get 0.
+Poker: You need 4 dices with the same number. If you succeed you sum up this 4 dices and add 40 to the score, else you get 0.
+Yamb: You need 5 dices with the same number. If you succeed you sum up this 5 dices and add 50 to the score, else you get 0.
+Royal: You need 6 dices with the same number. If you succeed you sum up this 6 dices and add 60 to the score, else you get 0.
+
+Each column alos has a special rule to follow.
+1. DOWN and UP
+In the first one ('DOWN') you can only fill the cells from top to bottom (meaning you can't fill the cell if the previous one is empty) and in the second one ('UP') it is the opposite - you can only fill the cell if the next one is already full, so you go from bottom to top.
+RANDOM 1 and RANDOM 2
+In this two column you can fill the cells in which ever order you want.
+CALL
+You can only fill this column if after the first roll you decide to 'call'.
+At the end of the game you sum up all the scores in cells 1-6 and put the sum in the cell 'Partial Result1' (for each column),
+then you substract Maximum - Minimum and multiply by the number in cell 1 and put the score in the cell '(Max-Min)xNu1' (for each column),
+and then you sum up all the scores in cells 9-13 and put the score in the cell 'Partial Result2' (again - for each column).
+The result of each column is the sum of the cell 'Partial Result1', '(Max-Min)xNu1' and 'Partial Result2'.
+The final step is to sum up the scores of every column.
+
+The winner is the player who scores the most points.
+
+Are you ready to 'roll' dices?
+
+Press 'enter' to begin!
