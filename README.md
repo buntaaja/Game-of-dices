@@ -1,4 +1,5 @@
 # GAME OF DICES
+#### Video Demo:  <[URL HERE](https://youtu.be/wv0pOOmegw8)>
 #### [Click here for Video Demo](https://www.youtube.com/watch?v=wv0pOOmegw8)
 
 <span style="color:orange; font-size:24px;">**Welcome to the game of dices!**</span><br><span style="color:pink; font-size:16px;">**(In Slovenia called 'kocke')**</span>
@@ -28,16 +29,6 @@ The objective is to score points, which you gain by rolling six dices and try to
 | **POKER** |  |    |          |          |      |        |
 | **YAMB** |   |    |          |          |      |        |
 | **ROYAL**|  |    |          |          |      |        |
-
-<style>
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-</style>
 
 
 <span style="color:green; font-size:16px;">**The winner is the player who scores _the most_ points!**</span>
