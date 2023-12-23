@@ -1,5 +1,4 @@
 # GAME OF DICES
-#### Video Demo:  <[URL HERE](https://youtu.be/wv0pOOmegw8)>
 #### [Click here for Video Demo](https://www.youtube.com/watch?v=wv0pOOmegw8)
 
 <span style="color:orange; font-size:24px;">**Welcome to the game of dices!**</span><br><span style="color:pink; font-size:16px;">**(In Slovenia called 'kocke')**</span>
